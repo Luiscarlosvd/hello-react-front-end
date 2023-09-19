@@ -59,6 +59,8 @@ After you're finished please remove all the comments and instructions!
 # 📖 Hello React FrontEnd <a name="about-project"></a>
 
 > A basic React app that makes requests to our hello-rails-back-end App to display greetings.
+>
+> [Link to the BackEnd (hello-rails-back-end).](https://github.com/Luiscarlosvd/hello-rails-back-end/pull/1)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -156,6 +158,8 @@ To run the project, execute the following command:
 ```
   npm start
 ```
+
+**Note:** Make sure that the server is running on localhost:3000.
 
 <!-- ### Run tests
 
