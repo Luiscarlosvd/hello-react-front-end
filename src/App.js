@@ -1,8 +1,16 @@
-import './App.css';
+import React from 'react';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import Greeting from './components/Greeting';
 
 function App() {
   return (
-    <div className="App">Template for React</div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Greeting />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
